@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Практика -->
+    <form class="js-search-form search-form">
+      <label for="city">Введіть назву міста</label>
+      <input type="text" name="city" class="search-input" required />
+
+      <label for="days">Виберіть кільксть днів</label>
+      <select name="days" class="days-select">
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="7">7</option>
+      </select>
+      <button class="search-button">Пошук</button>
+    </form>
+
+    <ul class="js-list weather-cards">
+    </ul>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
